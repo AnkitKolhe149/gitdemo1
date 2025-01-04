@@ -1,7 +1,12 @@
-git init 
-git status 
-git add .
-git commit -m "first commit"
-git branch -M main 
-git remote add origin https://AnkitKolhe149/gitdemo1.git
+git init - intialises an empty repo
+git status - finds all the files currently in cache
+git add . - tracks the untracked files
+git commit -m "first commit" - 
+git branch -M main - sets up Master branch 
+git remote add origin https://AnkitKolhe149/gitdemo1.git - makes the connection of localhost repo with the repo on github (note : both should have the same name)
 git push -u origin main
+
+git fetch - gets the branches availble
+git checkout - switch to a different branch
+
+git log - shows number of commits
